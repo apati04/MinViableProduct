@@ -2,7 +2,7 @@
   "name": "mks",
   "version": "1.0.0",
   "description": "### Overview:",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -33,6 +33,7 @@
     "youtube-api-search": "0.0.5"
   },
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha"
   },
   "repository": {

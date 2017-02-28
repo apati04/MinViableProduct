@@ -3,4 +3,4 @@
 npm install
 npm start
 ```
-![Alt text](/ytapp.png?raw=true "Main Interface")
+![Alt text](/screenshotYT.png?raw=true "Main Interface")

@@ -2,7 +2,6 @@
   margin: 20px;
   text-align: center;
 }
-
 .search-bar input {
   width: 75%;
 }
@@ -20,8 +19,10 @@
 
 .list-group-item {
   cursor: pointer;
+  transition: opacity 1s ease-in-out;
 }
 
 .list-group-item:hover {
-  background-color: #eee;
+  background-color: #e1e1e1;
+  opacity: .8;
 }

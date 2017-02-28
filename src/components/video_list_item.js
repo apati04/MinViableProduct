@@ -1,12 +1,8 @@
 import React from 'react';
 
-//functional 
 const VideoListItem = ({video, onVideoSelect}) => {
-  // const video = props.video; same as on line 3.
-  // reference bootstrap docs
+
   const imageUrl = video.snippet.thumbnails.default.url;
-  // #28 create event for user when click li
-   
   return (
     <li onClick={ () => onVideoSelect(video) } className='list-group-item'>
       <div className="video-list media">

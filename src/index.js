@@ -10,7 +10,7 @@ const render = (Component) => {
       <AppContainer>
         <Component />
       </AppContainer>,
-      document.querySelector('.container')
+      document.getElementById('root')
     );
   };
 

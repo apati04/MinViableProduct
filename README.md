@@ -3,4 +3,4 @@
 npm install
 npm start
 ```
-![Alt text](/screenshotYT.png?raw=true "Main Interface")(https://learnjs.surge.sh)
+[![LearnJS](/screenshotYT.png?)](https://learnjs.surge.sh)

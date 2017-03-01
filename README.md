@@ -1,7 +1,10 @@
-[![LearnJS](/screenshotYT.png?)](http://learnjs.surge.sh)
 
 ## Learn JS
+
+[![LearnJS](/screenshotYT.png?)](http://learnjs.surge.sh)
+
 demo: http://learnjs.surge.sh
+
 ##### An platform for learning. Minimizes the common problem of the youtube vortex. A great tool for teachers.
 
 ## Developers
@@ -9,7 +12,9 @@ demo: http://learnjs.surge.sh
 
 ## Technologies used:
 - ReactJS
+- React Hot Reloading
 - YouTube API
+
 
 ### How to use or contribute:
 1. Fork the repo to your github account.

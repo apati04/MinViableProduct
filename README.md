@@ -3,4 +3,4 @@
 npm install
 npm start
 ```
-[![LearnJS](/screenshotYT.png?)](https://learnjs.surge.sh)
+[![LearnJS](/screenshotYT.png?)](http://learnjs.surge.sh)

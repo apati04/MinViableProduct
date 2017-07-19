@@ -17,7 +17,7 @@ class SearchBar extends Component {
     return (
       <div className="container-fluid search-bar" style={{display: 'flex', justifyContent: 'space-around'}}>
           <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 scoping') }>ES6 Scoping</Button>
-          <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 promises') }>ES6 Promises</Button>
+          <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 promises') }>ES6 promises</Button>
           <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 arrow functions') }>ES6 Functions</Button>
           <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 string templating') }>ES6 String Templating</Button>
           <Button bsStyle="default" bsSize="large" onClick={ (event) => this.onInputChange('es6 object enhancements') }>ES6 Objects</Button>

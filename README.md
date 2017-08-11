@@ -16,7 +16,7 @@ demo: http://learnjs.surge.sh
 - YouTube API
 
 
-### How to use or contribute:
+### How to use:
 1. Fork the repo to your github account.
 2. Clone the repo to your computer by using the git clone commmand.
 3. npm install inside cloned directory

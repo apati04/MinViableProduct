@@ -5,7 +5,7 @@
 
 Demo: http://learnjs.surge.sh
 
-##### A platform for learning Javascript. Minimizes the common problem of the youtube vortex. A great tool for teachers.
+#### A platform for learning Javascript. Minimizes the common problem of the youtube vortex. A great tool for teachers.
 
 ## Development Team
 - Andrew Patipaksiri

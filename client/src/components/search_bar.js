@@ -37,7 +37,8 @@ class SearchBar extends Component {
             </span>
           </div>
         </div>
-        <div className="list-group list-group-flush">
+        <div className="p-3 list-group list-group-flush">
+          <h6 className="list-group-item-heading border-bottom">Basic</h6>
           <button
             type="button"
             className="list-group-item list-group-item-action active"

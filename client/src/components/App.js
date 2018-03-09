@@ -19,7 +19,6 @@ class App extends Component {
       key  : process.env.REACT_APP_YOUTUBE_KEY,
       term
     });
-    console.log(request);
     this.setState({
       videos        : request,
       selectedVideo : request[0]
@@ -34,7 +33,7 @@ class App extends Component {
         <NavBar />
         <div className="d-flex justify-content-between">
           <SearchBar onSearchTermChange={videoSearch} />
-          <div className="container m-auto p-5">
+          <div className="container m-auto">
             <VideoDetail video={this.state.selectedVideo} />
             <YTCardList
               onVideoSelect={(selectedVideo) =>

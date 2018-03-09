@@ -40,7 +40,6 @@ class SearchBar extends Component {
         <div className="p-3 list-group list-group-flush">
           <h6 className="list-group-item-heading border-bottom">Basic</h6>
           <button
-            type="button"
             className="list-group-item list-group-item-action active"
             id="list-jsfun-list"
             data-toggle="list"
@@ -62,33 +61,33 @@ class SearchBar extends Component {
           <button
             type="button"
             id="list-reactjs-list"
+            data-toggle="list"
+            aria-controls="reactjs"
             className="list-group-item list-group-item-action"
-            onClick={(event) => this.onInputChange('reactjs')}
+            onClick={({ target: { innerText } }) =>
+              this.onInputChange(innerText)}
           >
             ReactJS
           </button>
           <button
-            type="button"
             className="list-group-item list-group-item-action"
-            onClick={(event) => this.onInputChange('es6 string templating')}
+            id="list-es6string-list"
+            data-toggle="list"
+            aria-controls="es6string"
+            onClick={({ target: { innerText } }) =>
+              this.onInputChange(innerText)}
           >
             ES6 String Templating
           </button>
-
           <button
-            type="button"
+            id="list-es6objects-list"
+            data-toggle="list"
+            aria-controls="es6objects"
             className="list-group-item list-group-item-action"
-            onClick={(event) => this.onInputChange('es6 object enhancements')}
+            onClick={({ target: { innerText } }) =>
+              this.onInputChange(innerText)}
           >
             ES6 Objects
-          </button>
-
-          <button
-            type="button"
-            className="list-group-item list-group-item-action"
-            onClick={(event) => this.onInputChange('es6 map')}
-          >
-            ES6 Map
           </button>
         </div>
       </div>

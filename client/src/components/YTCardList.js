@@ -16,7 +16,7 @@ const YTCardList = (props) => {
   });
 
   return (
-    <div className="container card-deck list-group list-group-flush">
+    <div className="list-group list-group-flush">
       <div className="card">
         <div class="card-header">Featured</div>
         <div className="card-body">{videoItems}</div>

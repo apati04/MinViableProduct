@@ -31,9 +31,9 @@ class App extends Component {
     return (
       <div className="bg-light">
         <NavBar />
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-start">
           <SearchBar onSearchTermChange={videoSearch} />
-          <div className="container m-auto">
+          <div className="pl-5">
             <VideoDetail video={this.state.selectedVideo} />
             <YTCardList
               onVideoSelect={(selectedVideo) =>

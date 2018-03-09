@@ -13,7 +13,7 @@ const YTCardItem = ({ video, onVideoSelect }) => {
           alt=""
           width={width}
           height={height}
-          className="d-inline-flex card-img-left d-none d-md-block"
+          className="d-inline-flex card-img-left"
         />
         <div className="flex-column">
           <p className="lead card-title">{video.snippet.title}</p>
